@@ -15,6 +15,7 @@
     <link rel="icon" type="image/png" href="./icons/Icono.png">
 </head>
 <!-- Pendiente añadir comentarios -->
+
 <body>
     <h1>Formula 1</h1>
     <h2>¿Que es la Fórmula 1?</h2>
@@ -26,10 +27,12 @@
         representación.</p>
     <hr style="border-color:purple">
     <figure>
-        <img src="./images/Alonso.jpg" width="300" style="float:right" alt="Fernando Alonso temporada 2018"
-            onClick="alert('Este es Fernando Alonso')"
-            srcset="./images/Alonso900x600px.jpg 400w, ./images/Alonso900x600px.jpg 600w"
-            sizes="(max-width: 480px) 360px, (max-width: 900px) 600px, 1080px">
+        <picture>
+            <source media="(max-width:799px)" srcset="./images/Alonso900x600px.jpg">
+            <source media="(max-width:800px)" srcset="./images/Alonso1080p.jpg">
+            <img src="./images/Alonso1080p.jpg" width="300" style="float:right" alt="Fernando Alonso temporada 2018"
+                onClick="alert('Este es Fernando Alonso')">
+        </picture>
         <figcaption style="text-align:end">
             Fernando Alonso en el MP4-30 de Mclaren de la temporada 2015
         </figcaption>
@@ -40,10 +43,12 @@
         Ha ganado <b>2 títulos mundiales</b> y tiene como meta <b>completar la triple corona</b> (<i>Ganar el gran
             premio de Mónaco, Ganar las 24 horas de lemans y Ganar las 500 millas de Indianapolis</i>)
         <figure>
-            <img src="./images/Servia.jpg" style="float:right; margin: 0px 1000px 15px" width="250"
-                alt="Oriol Serviá Indy500 de 2018" onClick="alert('Este es Oriol Serviá')"
-                srcset="./images/Servia900x495px.jpg 400w, ./images/Servia900x495px.jpg 600w"
-                sizes="(max-width: 480px) 360px, (max-width: 900px) 600px, 1080px">
+            <picture>
+                <source media="(max-width:799px)" srcset="./images/Servia900x495px.jpg">
+                <source media="(max-width:800px)" srcset="./images/Servia1080p.jpg">
+                <img src="./images/Servia1080p.jpg" style="float:right; margin: 0px 1000px 15px" width="250"
+                    alt="Oriol Serviá Indy500 de 2018" onClick="alert('Este es Oriol Serviá')">
+            </picture>
             <figcaption style="text-align:justify">
                 Oriol Serviá en el Dallara IR18 en las 500 millas de Indyanapolis de 2018
             </figcaption>
@@ -58,10 +63,12 @@
                 mayor</u>
         </p>
         <figure>
-            <img src="./images/Sainz.jpg" width="300" style="float:right; margin: 0px 0px 10px 20px"
-                alt="Carlos Sainz temporada 2019" onClick="alert('Este es Carlos Sainz')"
-                srcset="./images/Sainz900x506px.jpg 400w, ./images/Sainz900x506px.jpg 600w"
-                sizes="(max-width: 480px) 360px, (max-width: 900px) 600px, 1080px">
+            <picture>
+                <source media="(max-width:799px)" srcset="./images/Sainz900x506px.jpg">
+                <source media="(max-width:800px)" srcset="./images/Sainz1080p.jpg">
+                <img src="./images/Sainz1080p.jpg" width="300" style="float:right; margin: 0px 0px 10px 20px"
+                    alt="Carlos Sainz temporada 2019" onClick="alert('Este es Carlos Sainz')">
+            </picture>
             <figcaption style="text-align:end">
                 Carlos Sainz en el MCL34 de Mclaren de la temporada 2019
             </figcaption>
