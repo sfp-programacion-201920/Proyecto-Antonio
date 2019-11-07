@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- En el head es donde se ponen los metadatos y demas información que el usuario normal no puede acceder-->
 
 <head>
     <meta charset="UTF-8">
@@ -10,69 +11,82 @@
     <meta name="keywords" content="Formula 1, F1, Mundial, Formula One">
     <meta name="robots" content="index,follow">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="Javascript.js"></script>
+    <!--JavaScript del inicio de la página está desactivado-->
+    <script src="JavaScript.js"></script>
     <title>Formula 1</title>
     <link rel="icon" type="image/png" href="./icons/Icono.png">
 </head>
-<!-- Pendiente añadir comentarios -->
+
+<!-- En el body se pone todo lo que se va a ver en la página web -->
 
 <body>
-    <h1>Formula 1</h1>
-    <h2>¿Que es la Fórmula 1?</h2>
-    <p>La Fórmula 1 es la mayor categoría dentro del mundo del motorsport, donde compiten los pilotos más buenos de todo
-        el mundo.</p>
-    <hr style="border-color:purple">
-    <h3>Representación Española</h3>
-    <p>Durante los casi 80 años que se lleva disputando el campeonato mundial de la Fórmula 1 hemos tenido bastante
-        representación.</p>
-    <hr style="border-color:purple">
+    <a id="inicio"></a>
+    <a href="#final">Ir al final de la página</a>
+    <h1>Noticias del mundo del motorsport</h1>
+    <a id="reglas2021"></a>
+    <h2><a href="./articles/reglas2021.html">Nuevas reglas para 2021</a></h2>
     <figure>
-        <picture>
-            <source media="(max-width:799px)" srcset="./images/Alonso900x600px.jpg">
-            <source media="(max-width:800px)" srcset="./images/Alonso1080p.jpg">
-            <img src="./images/Alonso1080p.jpg" width="300" style="float:right" alt="Fernando Alonso temporada 2018"
-                onClick="alert('Este es Fernando Alonso')">
-        </picture>
-        <figcaption style="text-align:end">
-            Fernando Alonso en el MP4-30 de Mclaren de la temporada 2015
-        </figcaption>
+        <a href="./articles/reglas2021.html">
+            <picture>
+                <source media="(max-width:799px)" srcset="./images/F12021(900x506px).jpg">
+                <source media="(max-width:800px)" srcset="./images/F12021.jpg">
+                <img src="./images/F12021.jpg" width="600" style="float:inherit; margin: 0px 0px 0px 320px"
+                    alt="Prototipo de la FIA de los coches de 2021">
+            </picture>
+        </a>
     </figure>
-    <h4>Fernando Alonso</h4>
-    <p><b>Fernando Alonso</b> es el piloto más elojiado por grandes figuras del automovilismo como uno de los mejores
-        pilotos de la historia<br>
-        Ha ganado <b>2 títulos mundiales</b> y tiene como meta <b>completar la triple corona</b> (<i>Ganar el gran
-            premio de Mónaco, Ganar las 24 horas de lemans y Ganar las 500 millas de Indianapolis</i>)
-        <figure>
+    <p>Las nuevas reglas vigentes a partir de la temporada 2021 fueron introducidas el pasado viernes en una rueda
+        de prensa previa al gran premio de los Estados Unidos. <a href="./articles/reglas2021.html">Pincha aquí
+            para ver más</a></p>
+    <a id="renaultdq"></a>
+    <h2><a href="./articles/renaultdqjapon.html">Los Renault descalificados del GP de Japón</a></h2>
+    <figure>
+        <a href="./articles/renaultdqjapon.html">
             <picture>
-                <source media="(max-width:799px)" srcset="./images/Servia900x495px.jpg">
-                <source media="(max-width:800px)" srcset="./images/Servia1080p.jpg">
-                <img src="./images/Servia1080p.jpg" style="float:right; margin: 0px 1000px 15px" width="250"
-                    alt="Oriol Serviá Indy500 de 2018" onClick="alert('Este es Oriol Serviá')">
+                <source media="(max-width:799px)" srcset="./images/renaultjapon(400x266px).jpg">
+                <source media="(max-width:800px)" srcset="./images/renaultjapon.jpg">
+                <img src="./images/renaultjapon.jpg" width="500" style="float:inherit; margin: 0px 0px 0px 375px"
+                    alt="Nico Hülkenberg en el GP de Japón de 2019">
             </picture>
-            <figcaption style="text-align:justify">
-                Oriol Serviá en el Dallara IR18 en las 500 millas de Indyanapolis de 2018
-            </figcaption>
-        </figure>
-        <br>
-        <hr style="border-color:purple">
-        <h4>Carlos Sainz</h4>
-        <p>Es el piloto actual que hay en la Formula 1 siendo una gran promesa, esta temporada está en el equipo Mclaren
-            donde esta consiguiendo grandes resultados, <br> destacandose como <i>"el mejor del resto"</i> ya que los 3
-            equipos por
-            encima (Mercedes, Ferrari y Red Bull) están en <i>"otra batalla"</i> y <u>tienen un nivel mucho
-                mayor</u>
-        </p>
-        <figure>
+        </a>
+    </figure>
+    <p>El equipo Renault ha sido descalificado después del final del GP de Japón por irregularidades en sus mapas
+        del reparto de frenada. <a href="./articles/renaultdqjapon.html">Pincha aquí para ver más</a></p>
+    <a id="españaf12021"></a>
+    <h2><a href="./articles/campos2021.html"> ¿Equipo Español en F1?</a></h2>
+    <figure>
+        <a href="./articles/campos2021.html">
             <picture>
-                <source media="(max-width:799px)" srcset="./images/Sainz900x506px.jpg">
-                <source media="(max-width:800px)" srcset="./images/Sainz1080p.jpg">
-                <img src="./images/Sainz1080p.jpg" width="300" style="float:right; margin: 0px 0px 10px 20px"
-                    alt="Carlos Sainz temporada 2019" onClick="alert('Este es Carlos Sainz')">
+                <source media="(max-width:799px)" srcset="./images/jackaitken(900x506px).jpg">
+                <source media="(max-width:800px)" srcset="./images/jackaitken.jpg">
+                <img src="./images/jackaitken2019.jpg" width="500" style="float:inherit; margin: 0px 0px 0px 375px"
+                    alt="Jack Aitken GP de Austria en F2 en 2019">
             </picture>
-            <figcaption style="text-align:end">
-                Carlos Sainz en el MCL34 de Mclaren de la temporada 2019
-            </figcaption>
-        </figure>
+        </a>
+    </figure>
+    <p>El equipo Español Campos se esta planteando seriamente inscribirse como competidor en el mundial de F1 en la
+        temporada 2021. <a href="./articles/campos2021.html">Pincha aquí para ver más</a></p>
+    <a id="sainz100"></a>
+    <h2><a href="./articles/sainz100carreras.html">100 carreras en F1 de Carlos Sainz</a></h2>
+    <figure>
+        <a href="./articles/sainz100carreras.html">
+            <picture>
+                <source media="(max-width:799px)" srcset="./images/sainztr(800x452px).jpg">
+                <source media="(max-width:800px)" srcset="./images/sainztr.jpg">
+                <img src="./images/sainztr.jpg" width="500" style="float:inherit; margin: 0px 0px 0px 375px"
+                    alt="Carlos Sainz en el GP de Singapur de 2017 con Toro Rosso">
+            </picture>
+        </a>
+    </figure>
+    <p>Carlos Sainz cumple 100 carreras en la F1 este fin de semana en el GP de los Estados Unidos. <a
+            href="./articles/sainz100carreras.html">Pincha aquí para ver más</a></p>
+    <a href="#inicio">Volver al inicio</a>
+    <audio controls autoplay loop>
+        <source src="./sounds/SonidoF12011.ogg" type="audio/ogg">
+        <source src="./sounds/SonidoF12011.mp3" type="audio/mpeg">
+        Este audio no es soportado por el navegador
+    </audio>
+    <a id="final"></a>
 </body>
 
 </html>
